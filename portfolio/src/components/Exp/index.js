@@ -1,6 +1,6 @@
 import React from "react";
 
-function Exp() {
+export function Exp() {
 
   return (
     <div className="jumbotron jumbotron-fluid">

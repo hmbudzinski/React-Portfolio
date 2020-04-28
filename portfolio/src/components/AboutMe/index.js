@@ -1,6 +1,6 @@
 import React from "react";
 
-function AboutMe() {
+export function AboutMe() {
 
   return (
     <div className="jumbotron jumbotron-fluid">

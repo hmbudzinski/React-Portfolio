@@ -1,6 +1,6 @@
 import React from "react";
 
-function Contact() {
+export function Contact() {
 
   return (
     <div className="jumbotron jumbotron-fluid">
