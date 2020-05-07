@@ -9,6 +9,26 @@ function Nav({ page }) {
     document.documentElement.scrollTop = 0;
   }
 
+  function About(){
+    document.body.scrollTop = (920); 
+    document.documentElement.scrollTop = (920);
+  }
+
+  function Work(){
+    document.body.scrollTop = (2350); 
+    document.documentElement.scrollTop = (2350);
+  }
+
+  function Exp(){
+    document.body.scrollTop = (3170); 
+    document.documentElement.scrollTop = (3170);
+  }
+  
+  function Contact(){
+    document.body.scrollTop = (4000); 
+    document.documentElement.scrollTop = (4000);
+  }
+
   return (
 
     <nav className="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
@@ -27,7 +47,7 @@ function Nav({ page }) {
         <ul className="navbar-nav">
           <li className="nav-item">
             <Link
-              to="/home"
+              onClick={About}
               className={
                 (window.location.pathname === "/home")
                   ? "nav-link active"
@@ -44,12 +64,8 @@ function Nav({ page }) {
         <ul className="navbar-nav">
           <li className="nav-item">
             <Link className={(page === "Work") ? "nav-link active" : "nav-link"}
-              to={{
-                pathname: '/body',
-                state: {
-                  location: 'Work'
-                }
-              }}>My Work</Link>
+              onClick={Work}
+              >My Work</Link>
           </li>
         </ul>
       </div>
@@ -58,12 +74,7 @@ function Nav({ page }) {
         <ul className="navbar-nav">
           <li className="nav-item">
             <Link className={(page === "Experience") ? "nav-link active" : "nav-link"}
-              to={{
-                pathname: "/body",
-                state: {
-                  location: 'Experience'
-                }
-              }}
+              onClick={Exp}
             >My Experience</Link>
           </li>
         </ul>
@@ -73,12 +84,7 @@ function Nav({ page }) {
         <ul className="navbar-nav">
           <li className="nav-item">
             <Link className={(page === "Contact") ? "nav-link active" : "nav-link"}
-              to={{
-                pathname: '/body',
-                state: {
-                  category: 'Contact'
-                }
-              }}>Contact Me</Link>
+              onClick={Contact}>Contact Me</Link>
           </li>
         </ul>
       </div>
