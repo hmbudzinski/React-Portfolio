@@ -9,6 +9,7 @@
     margin-top: 100px;
     margin-bottom: 100px;
     background-color: rgb(206, 223, 206);
+    text-align: center;
 }
 
 body {
@@ -25,4 +26,22 @@ body {
 
 .container{
     align-content: center;
+}
+
+.row{
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#btn-container{
+    padding: 30px;
+    text-align: center;
+}
+
+#contact-box{
+    padding: 20px;
 }

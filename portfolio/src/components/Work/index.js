@@ -7,7 +7,6 @@ function Work() {
 
   return (
     <div className="jumbotron jumbotron-fluid">
-    <div className="container">
         <h1 className="display-4 text-center">My work</h1>
         <div className="row">
         <div className="card">
@@ -43,7 +42,6 @@ function Work() {
             </div>
         </div>
         </div>
-    </div>
     </div>
   )
 }

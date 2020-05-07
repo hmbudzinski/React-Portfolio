@@ -8,7 +8,9 @@ export function Landing() {
     <div className="container">
         <h1 className="display-4 text-center">Hello, I'm Hayley Budzinski,</h1>
         <h1 className="display-4 text-center">I'm a full-stack web developer.</h1>
-        <button className="btn-form btn btn-outline-secondary btn-lg">View my Work</button>
+        <div id="btn-container">
+        <button className="btn-form btn btn-outline-secondary btn-lg">View My Work</button>
+        </div>
     </div>
     </div>
   )
