@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 #landing{
     height: 100vh;
     margin-top: 0px;
