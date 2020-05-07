@@ -7,6 +7,7 @@ import Exp from "../src/components/Exp";
 import Contact from "../src/components/Contact";
 import Landing from "../src/components/Landing";
 import "./styles/home.css"
+import Particles from "particlesjs";
 
 function App() {
 
@@ -19,7 +20,19 @@ function App() {
       document.getElementById("navbar").style.top = "-50px";
     }
   }
-  
+
+  window.onload= function() {
+    Particles.init
+      ({
+      maxParticles: 120,
+      selector: 
+      '.background',
+      color: 
+      '#ffffff',
+      connectParticles: true
+    });
+    };
+
   return (
     <Router>
       <div>

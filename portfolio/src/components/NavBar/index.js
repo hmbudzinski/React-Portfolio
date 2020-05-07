@@ -15,8 +15,8 @@ function Nav({ page }) {
   }
 
   function Work(){
-    document.body.scrollTop = (2350); 
-    document.documentElement.scrollTop = (2350);
+    document.body.scrollTop = (2390); 
+    document.documentElement.scrollTop = (2390);
   }
 
   function Exp(){

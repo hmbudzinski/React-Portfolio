@@ -7,15 +7,12 @@ export function Landing() {
   function aboutMe(){
     document.body.scrollTop = (920); 
     document.documentElement.scrollTop = (920);
-    // document.body.scrollTop = document.getElementById("test"); 
-    // document.documentElement.scrollTop = document.getElementById("test");
-    console.log("click")
-    // window.scrollTo($("#aboutmediv"));
   }
 
   return (
     <>
     <div className="jumbotron jumbotron-fluid" id="landing">
+    <canvas class="background"></canvas>
     <div className="container">
         <h1 className="display-4 text-center">Hello, I'm Hayley Budzinski,</h1>
         <h1 className="display-4 text-center">I'm a full-stack web developer.</h1>

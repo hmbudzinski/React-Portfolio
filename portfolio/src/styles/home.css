@@ -2,6 +2,19 @@ html {
     scroll-behavior: smooth;
   }
 
+html, body {
+    margin: 0;  
+    padding: 0;
+    }
+
+.background {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    }
+
 #landing{
     height: 100vh;
     margin-top: 0px;
@@ -12,6 +25,11 @@ html {
     background-attachment: scroll;
     background-size: cover;
     color: rgb(63, 70, 63);
+}
+
+.display-4,
+#scrollBtn{
+    position: relative;
 }
 
 .jumbotron{
