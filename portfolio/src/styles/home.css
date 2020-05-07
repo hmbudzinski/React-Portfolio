@@ -1,6 +1,8 @@
 #landing{
     height: 500px;
     margin-top: 0px;
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
 
 .jumbotron{
@@ -44,4 +46,20 @@ body {
 
 #contact-box{
     padding: 20px;
+}
+
+.fa{
+    -webkit-transition: transform .5s;
+    -moz-transition: transform .5s;
+    -o-transition: transform .5s;
+    -ms-transition: transform .5s;
+    transition: transform .5s;
+}
+
+.btn:hover .fa{
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
 }
