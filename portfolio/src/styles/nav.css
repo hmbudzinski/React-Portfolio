@@ -1,3 +1,11 @@
-#navbar{
-    background-color: rgb(206, 223, 206);
-}
+#navbar {
+    background-color: #333; 
+    position: fixed;
+    top: -50px; 
+    width: 100%;
+    transition: top 0.4s;
+  }
+  
+  #navbar a:hover {
+    color: black;
+  }
