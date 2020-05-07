@@ -1,6 +1,7 @@
 import React from "react";
 import "../../styles/home.css"
 import QuarImage from "../../styles/one.PNG"
+import TopBtn from "../TopBtn"
 
 
 function Work() {
@@ -42,6 +43,7 @@ function Work() {
             </div>
         </div>
         </div>
+        <TopBtn />
     </div>
   )
 }

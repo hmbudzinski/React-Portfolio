@@ -1,6 +1,7 @@
 import React from "react";
 import "../../styles/home.css"
 import MyImage from "../../styles/Comp.jpg"
+import TopBtn from "../TopBtn"
 
 export function AboutMe() {
 
@@ -36,6 +37,7 @@ export function AboutMe() {
         <p className="lead text-center">I am a Paralegal and World Traveler turned Web Developer who recently graduated from a six-month full stack web development program from the University of Denver, feel free to poke around and check out my work</p>
         </div>
         </div>
+        <TopBtn />
     </div>
   )
 }

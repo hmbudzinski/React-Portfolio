@@ -1,5 +1,6 @@
 import React from "react";
 import "../../styles/home.css"
+import TopBtn from "../TopBtn"
 
 export function Contact() {
 
@@ -28,6 +29,7 @@ export function Contact() {
           </h4>
         </div>
     </div>
+    <TopBtn />
     </div>
   )
 }
