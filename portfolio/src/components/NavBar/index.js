@@ -4,11 +4,16 @@ import "../../styles/nav.css"
 
 function Nav({ page }) {
 
+  function Top(){
+    document.body.scrollTop = 0; 
+    document.documentElement.scrollTop = 0;
+  }
+
   return (
 
     <nav className="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
       <div>
-        <Link className="navbar-brand" to="/home">
+        <Link className="navbar-brand" onClick={Top}>
           Hayley Budzinski
         </Link>
       </div>

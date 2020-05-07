@@ -6,7 +6,7 @@ import TopBtn from "../TopBtn"
 export function AboutMe() {
 
   return (
-    <div className="jumbotron jumbotron-fluid">
+    <div className="jumbotron jumbotron-fluid" id="aboutmediv">
         <h1 className="co-lg display-4 text-center">About</h1>
 
         <div className="row">
@@ -30,7 +30,7 @@ export function AboutMe() {
         <div className="row">
         <div className="col-md text-center">
         <p className="lead text-center">This is Me</p>
-        <i className="fa fa-angle-double-down"></i>
+        <i className="fa fa-angle-double-down" id="meArrow"></i>
         <img src={MyImage} className="card-img-top" alt="Me"></img>
         </div>
         <div className="col-md">

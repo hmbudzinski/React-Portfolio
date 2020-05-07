@@ -23,7 +23,7 @@ function Work() {
             <div className="card-body">
                 <h5 className="card-title">Weather</h5>
                 <p className="card-text">Example Text</p>
-                <a href="#" class="card-link">Visit My App</a>
+                <a href="#" className="card-link">Visit My App</a>
             </div>
         </div>
         <div className="card">
@@ -31,7 +31,7 @@ function Work() {
             <div className="card-body">
                 <h5 className="card-title">Budget-Tracker</h5>
                 <p className="card-text">Example Text</p>
-                <a href="#" class="card-link">Visit My App</a>
+                <a href="#" className="card-link">Visit My App</a>
             </div>
         </div>
         <div className="card">
@@ -39,7 +39,7 @@ function Work() {
             <div className="card-body">
                 <h5 className="card-title">Nerdify</h5>
                 <p className="card-text">Example Text</p>
-                <a href="#" class="card-link">Visit My App</a>
+                <a href="#" className="card-link">Visit My App</a>
             </div>
         </div>
         </div>

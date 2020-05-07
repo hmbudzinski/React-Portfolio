@@ -4,6 +4,7 @@
     top: -50px; 
     width: 100%;
     transition: top 0.4s;
+    margin-bottom: 0px;
   }
   
   #navbar a:hover {
