@@ -99,3 +99,15 @@ body {
 .about{
     height: 20px;
 }
+
+#breakline{
+    border-color: grey;
+    border-width: 1px;
+    width: 90%;
+}
+
+#abtLine{
+    border-color: grey;
+    border-width: 1px;
+    width: 15%;
+}

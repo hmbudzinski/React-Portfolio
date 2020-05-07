@@ -7,6 +7,9 @@ const styles ={
   icon: {
     fontSize: "4rem",
     color:"dark grey"
+  },
+  font: {
+    fontSize:"2rem"
   }
 }
 export function AboutMe() {
@@ -14,7 +17,7 @@ export function AboutMe() {
   return (
     <div className="jumbotron jumbotron-fluid" id="aboutmediv">
         <h1 className="co-lg display-4 text-center">About</h1>
-
+        <hr id="abtLine"></hr>
         <div className="row">
 
           <h3 className="col-md">
@@ -46,12 +49,14 @@ export function AboutMe() {
         </div>
 
         {/* I want to make this div into a break line */}
-        <div></div>
+        <hr id="breakline"></hr>
 
         <div className="row">
         <div className="col-md text-center">
-        <p className="lead text-center">This is Me</p>
+        <p className="lead text-center" style={styles.font}>This is Me<span style={styles.icon}><i class="fa fa-angle-double-right"></i></span></p>
+        <span style={styles.icon}>
         <i className="fa fa-angle-double-down" id="meArrow"></i>
+        </span>
         <img src={MyImage} className="card-img-top" alt="Me"></img>
         </div>
         <div className="col-md">
