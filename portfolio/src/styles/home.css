@@ -39,6 +39,7 @@ html, body {
     margin-bottom: 100px;
     background-color: rgb(206, 223, 206);
     text-align: center;
+    position: relative;
 }
 
 body {

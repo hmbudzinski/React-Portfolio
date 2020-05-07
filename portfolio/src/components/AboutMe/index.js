@@ -21,7 +21,7 @@ export function AboutMe() {
         <div className="row">
 
           <h3 className="col-md">
-            Clean Design 
+            Modern  
             <br></br>
             <span style={styles.icon}>
             <i className="fa fa-connectdevelop about"></i>
@@ -48,7 +48,6 @@ export function AboutMe() {
           </h3>
         </div>
 
-        {/* I want to make this div into a break line */}
         <hr id="breakline"></hr>
 
         <div className="row">
