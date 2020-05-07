@@ -95,3 +95,7 @@ body {
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
+
+.about{
+    height: 20px;
+}

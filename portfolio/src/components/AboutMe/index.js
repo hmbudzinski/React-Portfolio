@@ -3,6 +3,12 @@ import "../../styles/home.css"
 import MyImage from "../../styles/Comp.jpg"
 import TopBtn from "../TopBtn"
 
+const styles ={
+  icon: {
+    fontSize: "4rem",
+    color:"dark grey"
+  }
+}
 export function AboutMe() {
 
   return (
@@ -10,27 +16,37 @@ export function AboutMe() {
         <h1 className="co-lg display-4 text-center">About</h1>
 
         <div className="row">
+
           <h3 className="col-md">
             Clean Design 
             <br></br>
-            <i className="fa fa-object-group"></i>
-            <i className="fa fa-drafting-compass"></i>
+            <span style={styles.icon}>
+            <i className="fa fa-connectdevelop about"></i>
+            </span>
             <h5>Focus on a modern, clean design.</h5>
           </h3>
+
           <h3 className="col-md">
             Responsive 
             <br></br>
-            <i className="fa fa-object-group"></i>
-            <h5>My apps wil work on all sized-devices, big or small.</h5>
+            <span style={styles.icon}>
+            <i className="fa fa-object-group about"></i>
+            </span>
+            <h5>My apps will work on all sized-devices, big or small.</h5>
           </h3>
+
           <h3 className="col-md">
             Intuitive 
             <br></br>
-            <i className="fa fa-object-group"></i>
-            <i className="far fa-lightbulb"></i>
+            <span style={styles.icon}>
+            <i class="fa fa-cogs about"></i>
+            </span>
             <h5>Easy to use, user-focused sites.</h5>
           </h3>
         </div>
+
+        {/* I want to make this div into a break line */}
+        <div></div>
 
         <div className="row">
         <div className="col-md text-center">
