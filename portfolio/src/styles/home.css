@@ -1,8 +1,14 @@
+#landing{
+    height: 500px;
+    margin-top: 0px;
+}
+
 .jumbotron{
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     margin-top: 100px;
     margin-bottom: 100px;
+    background-color: rgb(206, 223, 206);
 }
 
 body {
@@ -10,4 +16,13 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover
+}
+
+.card{
+    width: 20%;
+    margin: 10px;
+}
+
+.container{
+    align-content: center;
 }
