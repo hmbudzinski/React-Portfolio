@@ -5,7 +5,7 @@ import TopBtn from "../TopBtn"
 export function Contact() {
 
   return (
-    <div className="jumbotron jumbotron-fluid">
+    <div className="jumbotron jumbotron-fluid" id="contactdiv">
     <div className="container">
         <h1 className="text-center">Want to collab on a project?</h1>
         {/* <form action="https://mailthis.to/@gmail.com" 

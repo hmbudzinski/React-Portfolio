@@ -1,6 +1,5 @@
 import React from "react";
 import "../../styles/home.css"
-import $ from "jquery"
 
 export function Landing() {
 

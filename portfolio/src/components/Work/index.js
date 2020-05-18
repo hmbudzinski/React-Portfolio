@@ -7,7 +7,7 @@ import TopBtn from "../TopBtn"
 function Work() {
 
   return (
-    <div className="jumbotron jumbotron-fluid">
+    <div className="jumbotron jumbotron-fluid" id="workdiv">
         <h1 className="display-4 text-center">My work</h1>
         <div className="row">
         <div className="card">

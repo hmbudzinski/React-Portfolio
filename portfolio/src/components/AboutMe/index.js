@@ -52,17 +52,26 @@ export function AboutMe() {
 
         <div className="row">
         <div className="col-md text-center">
-        <p className="lead text-center" style={styles.font}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This is Me      &nbsp;&nbsp;&nbsp;&nbsp; <span style={styles.icon}>
-            <i class="fa fa-angle-double-right"></i>
+        <p className="lead text-center" style={styles.font}>
+        <div className="extraspc">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div> 
+        This is Me      
+        <div className="extraspc">&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <span style={styles.icon}>
+            <i class="fa fa-angle-double-right" id="rightarrow"></i>
         </span>
         </p>
         <span style={styles.icon}>
         <i className="fa fa-angle-double-down" id="meArrow"></i>
         </span>
-        <img src={MyImage} className="card-img-top" alt="Me"></img>
+        <div class="cropped-img">
+        <img src={MyImage} className="card-img-top dcf-w-100% about-me-img" alt="Me"></img>
+        </div>
         </div>
         <div className="col-md">
-        <p className="lead text-center">I am a Paralegal and World Traveler turned Web Developer who recently graduated from a six-month full stack web development program from the University of Denver, feel free to poke around and check out my work</p>
+        <br></br>
+        <p className="lead text-center">I am a Paralegal and World Traveler turned Web Developer who recently graduated from a full stack web development program through the University of Denver. I am passionate about making responsive user-friendly sites and applications with a clean, modern flare.</p>
+        <br></br>
+        <p className="lead text-center">Feel free to poke around and check out my work</p>
         </div>
         </div>
         <TopBtn />
