@@ -144,14 +144,10 @@ body {
 }
 
 #workcontainer{
-    /* position: relative; */
-    margin: 20px;
-    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
-
-/* #workdiv{
-    align-items: center;
-} */
 
 /* for mobile? */
 [class*="col-"] {
@@ -240,6 +236,12 @@ body {
     }
     #rightarrow {
         display: none;
+    }
+
+    #workcontainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
 }
 

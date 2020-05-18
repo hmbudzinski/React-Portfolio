@@ -14,7 +14,7 @@ function Work() {
         <h1 className="display-4 text-center">My Work</h1>
         <hr id="breakline"></hr>
         
-        <div className="row container-fluid" id="workcontainer">
+        <div className="row" id="workcontainer">
         <div className="card">
             <img src={QuarImage} className="card-img-top workimages" alt="quarantivities"></img>
             <div className="card-body">
@@ -29,6 +29,7 @@ function Work() {
                 <a href="https://hmbudzinski.github.io/WeatherApp/" className="card-link" target="blank">Visit My App</a>
             </div>
         </div>
+
         <div className="card">
             <img src={BudgetImage} className="card-img-top workimages" alt="Budget"></img>
             <div className="card-body">
