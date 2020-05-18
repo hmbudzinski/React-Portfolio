@@ -8,7 +8,8 @@ function Work() {
 
   return (
     <div className="jumbotron jumbotron-fluid" id="workdiv">
-        <h1 className="display-4 text-center">My work</h1>
+        <h1 className="display-4 text-center">My Work</h1>
+        <hr id="breakline"></hr>
         <div className="row">
         <div className="card">
             <img src={QuarImage} className="card-img-top" alt="quarantivities"></img>

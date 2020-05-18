@@ -40,6 +40,7 @@ html, body {
     background-color: rgb(206, 223, 206);
     text-align: center;
     position: relative;
+    font-family: Raleway;
 }
 
 body {
@@ -186,19 +187,91 @@ body {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     body {font-size:1rem;} 
+    #aboutmediv{
+        color: black;
+    }
+    #workdiv{
+        color: black;
+    }
+    #servicesdiv{
+        color:black;
+    }
+    #contactdiv{
+        color:black
+    }
+    #hamburger{
+        color:black;
+    }
+    #rightarrow {
+        display: none;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     body {font-size:1.2rem;} 
+    #aboutmediv{
+        color: black;
+    }
+    #workdiv{
+        color: black;
+    }
+    #servicesdiv{
+        color:black;
+    }
+    #contactdiv{
+        color:black
+    }
+    #hamburger{
+        color:black;
+    }
+    #rightarrow {
+        display: none;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     body {font-size:1.2rem;} 
+    #aboutmediv{
+        color: black;
+    }
+    #workdiv{
+        color: black;
+    }
+    #servicesdiv{
+        color:black;
+    }
+    #contactdiv{
+        color:black
+    }
+    #hamburger{
+        color:black;
+    }
+    #rightarrow {
+        display: none;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     body {font-size:1.5rem;}
+    #aboutmediv{
+        color: black;
+    }
+    #workdiv{
+        color: black;
+    }
+    #servicesdiv{
+        color:black;
+    }
+    #contactdiv{
+        color:black
+    }
+    #hamburger{
+        color:black;
+    }
+    #rightarrow {
+        display: none;
+    }
 }

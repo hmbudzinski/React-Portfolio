@@ -31,7 +31,7 @@ function App() {
         <Landing />
         <AboutMe />
         <Work />
-        <Exp />
+        {/* <Exp /> */}
         <Contact />
         </div>
       </code>

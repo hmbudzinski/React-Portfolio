@@ -8,6 +8,7 @@ export function Contact() {
     <div className="jumbotron jumbotron-fluid" id="contactdiv">
     <div className="container">
         <h1 className="text-center">Want to collab on a project?</h1>
+        <hr id="breakline"></hr>
         {/* <form action="https://mailthis.to/@gmail.com" 
         method="POST"> */}
         {/* <input type="text" className="form-control" placeholder="Full Name" name="name"></input>
