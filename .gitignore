@@ -1,4 +1,4 @@
 node_modules/
-client/node_modules
+porfolio/node_modules
 package-lock.json
-client/package-lock.json
+porfolio/package-lock.json
