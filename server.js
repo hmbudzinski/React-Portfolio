@@ -11,9 +11,6 @@ if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/public"))
 }
 
-const passport = require('./config/passport');
-
-app.use(passport.initialize())
 app.use(require('./routes'))
 app.use(express.static(path.join(__dirname, 'build')));
 
