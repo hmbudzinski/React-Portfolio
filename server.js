@@ -19,6 +19,8 @@ app.get('*', function (req, res) {
   res.sendFile(path.join(__dirname, 'build', 'index.html'));
 });
 
+app.use(require('./routes'));
+
 const mongoose = require("mongoose");
 
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost:27017/portfolio", {
