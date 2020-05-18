@@ -17,17 +17,18 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "serve": "^11.3.0"
   },
   "devDependencies": {},
   "scripts": {
     "build": "cd portfolio && npm run build",
     "install": "cd portfolio && npm install",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "start:dev": "concurrently \"nodemon server.js --ignore 'portfolio/*'\" \"npm run portfolio\"",
-    "start:prod": "node server.js",
-    "portfolio": "cd portfolio && npm run start",
+    "serve": "node server.js",
+    "serve:dev": "concurrently \"nodemon server.js --ignore 'portfolio/*'\" \"npm run portfolio\"",
+    "serve:prod": "node server.js",
+    "portfolio": "cd portfolio && npm run serve",
     "dev": "concurrently \"npm run server\" \"npm run portfolio\""
   },
   "repository": {
