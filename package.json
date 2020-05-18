@@ -2,7 +2,7 @@
   "name": "react-portfolio",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -26,9 +26,7 @@
     "start:dev": "concurrently \"nodemon server.js --ignore 'client/*'\" \"npm run client\"",
     "start:prod": "node server.js",
     "portfolio": "cd portfolio && npm run start",
-    "install": "cd portfolio && npm install",
-    "build": "cd portfolio && npm run build",
-    "heroku-postbuild": "npm run build"
+    "install": "cd portfolio && npm install"
   },
   "repository": {
     "type": "git",

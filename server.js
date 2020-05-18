@@ -5,6 +5,7 @@ const PORT = process.env.PORT || 3001;
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+app.use(express.static(path.join(__dirname, 'build')));
 
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("portfolio/build"));
@@ -12,12 +13,15 @@ if (process.env.NODE_ENV === "production") {
   app.use(express.static("portfolio/public"))
 }
 
-app.use(require('./routes'))
 app.use(express.static(path.join(__dirname, 'build')));
+
+app.get('*', function (req, res) {
+  res.sendFile(path.join(__dirname, 'build', 'index.html'));
+});
 
 const mongoose = require("mongoose");
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost:27017/activities", {
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost:27017/portfolio", {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
@@ -29,7 +33,5 @@ mongoose.connection
   })
 
 app.listen(PORT, function () {
-
   console.log(`🌎  ==> API Server now listening on PORT ${PORT}!!!`);
-
 });
