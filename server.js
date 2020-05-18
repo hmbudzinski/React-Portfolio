@@ -15,6 +15,7 @@ const passport = require('./config/passport');
 
 app.use(passport.initialize())
 app.use(require('./routes'))
+app.use(express.static(path.join(__dirname, 'build')));
 
 const mongoose = require("mongoose");
 
