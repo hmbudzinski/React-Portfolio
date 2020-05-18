@@ -35,7 +35,7 @@ export function AboutMe() {
             <span style={styles.icon}>
             <i className="fa fa-object-group about"></i>
             </span>
-            <h5>My apps will work on all sized-devices, big or small.</h5>
+            <h5>My apps will work on any sized device, big or small.</h5>
           </h3>
 
           <h3 className="col-md">
@@ -52,7 +52,10 @@ export function AboutMe() {
 
         <div className="row">
         <div className="col-md text-center">
-        <p className="lead text-center" style={styles.font}>This is Me<span style={styles.icon}><i class="fa fa-angle-double-right"></i></span></p>
+        <p className="lead text-center" style={styles.font}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This is Me      &nbsp;&nbsp;&nbsp;&nbsp; <span style={styles.icon}>
+            <i class="fa fa-angle-double-right"></i>
+        </span>
+        </p>
         <span style={styles.icon}>
         <i className="fa fa-angle-double-down" id="meArrow"></i>
         </span>

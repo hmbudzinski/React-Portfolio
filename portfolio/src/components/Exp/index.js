@@ -7,8 +7,8 @@ export function Exp() {
     <>
     <div className="jumbotron jumbotron-fluid">
     <div className="container">
-        <h1 className="display-4 text-center">My experience</h1>
-        <p className="lead text-center">Details on my experience here</p>
+        <h1 className="display-4 text-center">Services</h1>
+        <p className="lead text-center">Details on my expertise here</p>
     </div>
     <TopBtn />
     </div>

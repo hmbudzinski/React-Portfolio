@@ -7,18 +7,18 @@ export function Contact() {
   return (
     <div className="jumbotron jumbotron-fluid">
     <div className="container">
-        <h3 className="text-center">Want to collab on a project? Contact me below!</h3>
+        <h1 className="text-center">Want to collab on a project?</h1>
         {/* <form action="https://mailthis.to/@gmail.com" 
         method="POST"> */}
-        <input type="text" className="form-control" placeholder="Full Name" name="name"></input>
+        {/* <input type="text" className="form-control" placeholder="Full Name" name="name"></input>
         <input type="text" className="form-control" placeholder="Email" name="email"></input>
         <div class="input-group">
         <textarea class="form-control" aria-label="With textarea" placeholder="Message"></textarea>
         </div>        
-        <button type="submit" onClick="">Send</button>
+        <button type="submit" onClick="">Send</button> */}
         {/* </form> */}
         <div id="contact-box">
-          <h3 className="text-center">Or you can reach me through the following methods:
+          <h3 className="text-center">You can reach me through the following methods:
           </h3>
           <h4>Email: hayleybudzinski@gmail.com</h4>
           <h4> LinkedIn:
