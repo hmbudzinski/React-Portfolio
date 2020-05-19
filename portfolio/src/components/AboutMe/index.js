@@ -69,7 +69,9 @@ export function AboutMe() {
         </div>
         <div className="col-md">
         <br></br>
-        <p className="lead text-center">I am a Paralegal and World Traveler turned Web Developer who recently graduated from a full stack web development program through the University of Denver. I am passionate about making responsive user-friendly sites and applications with a clean, modern flare.</p>
+        <p className="lead text-center">I am a Paralegal and World Traveler turned Web Developer who is a graduate of a full stack web development program from the University of Denver.</p>
+        <br></br>
+        <p className="lead text-center">I am passionate about making responsive user-friendly sites and applications with a clean, modern flare.</p>
         <br></br>
         <p className="lead text-center">Feel free to poke around and check out my work</p>
         </div>

@@ -10,18 +10,20 @@ export function Contact() {
         <h1 className="text-center">Want to collab on a project?</h1>
         <hr id="breakline"></hr>
         {/* <form action="https://mailthis.to/@gmail.com" 
-        method="POST"> */}
-        {/* <input type="text" className="form-control" placeholder="Full Name" name="name"></input>
+        method="POST">
+        <input type="text" className="form-control" placeholder="Full Name" name="name"></input>
         <input type="text" className="form-control" placeholder="Email" name="email"></input>
         <div class="input-group">
         <textarea class="form-control" aria-label="With textarea" placeholder="Message"></textarea>
         </div>        
-        <button type="submit" onClick="">Send</button> */}
-        {/* </form> */}
+        <button type="submit" onClick="">Send</button>
+        </form> */}
         <div id="contact-box">
           <h3 className="text-center">You can reach me through the following methods:
           </h3>
-          <h4>Email: hayleybudzinski@gmail.com</h4>
+          <h4>Email: 
+          <a href="mailto:hayleybudzinski@gmail.com"> hayleybudzinski@gmail.com</a>
+          </h4>
           <h4> LinkedIn:
           <a href="https://vast-hamlet-59362.herokuapp.com/" class="card-link"> www.linkedin.com/in/hayley-budzinski</a>
           </h4>
