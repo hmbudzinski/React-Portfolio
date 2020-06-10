@@ -13,6 +13,7 @@
 
 #hamburger{
   position: fixed;
+  z-index: 3;
 }
   /* The side navigation menu */
 .sidenav {
